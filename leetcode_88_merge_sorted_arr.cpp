@@ -3,12 +3,16 @@
 using namespace std;
 
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+        // //solution 1
         // int i = 0;
         // for (int num2:nums2){
         //     nums1[m+i] = num2;
         //     i++;
         // }
         // sort(nums1.begin(),nums1.end());
+        //
+        //
+        // //solution 2
         int idx = m+n-1 , i = m-1 , j = n-1;
 
         while(i >= 0 && j >= 0){
